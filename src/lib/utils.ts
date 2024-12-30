@@ -1,6 +1,2 @@
-import { type ClassValue, clsx } from "clsx"
-import { twMerge } from "tailwind-merge"
-
-export function cn(...inputs: ClassValue[]) {
-  return twMerge(clsx(inputs))
-} 
+// このファイル全体を削除するか、
+// もしくは必要な関数だけを残して単純化 
