@@ -1,6 +1,9 @@
 import "./App.css";
 import backstage from "./assets/backstage-sap.com_.png";
 import tkaisei from "./assets/tkaisei-hokkaido.com_.png";
+import arrayss from "./assets/arrayss.png";
+import breakss from "./assets/breakss.png";
+import diverss from "./assets/diverdownss.png";
 import {Omikuji} from "./components/omikuji";
 import VanillaTilt from 'vanilla-tilt';
 import {useEffect, useRef} from 'react';
@@ -67,7 +70,7 @@ function App() {
       </div>
 
       <div className="carusel">
-        <div className="css-carousel-slider2">
+        <div className="css-carousel-slider5">
           <div className="slide-wrap-main">
             <div className="slide">
               <a href=""><img src={backstage} alt="" /></a>
@@ -80,20 +83,29 @@ function App() {
             <div className="slide">
               <img src={tkaisei} alt="" />
             </div>
+            <div className="slide">
+              <img src={arrayss}></img>
+            </div>
+            <div className="slide">
+              <img src={breakss}></img>
+            </div>
+            <div className="slide">
+              <img src={diverss}></img>
+            </div>
           </div>
         </div>
 
-        <p>2025年は沢山制作し発信していく年にします👾</p>
+        <p>2025年は沢山制作し発信する年にします🐈</p>
       </div>
 
       <div className="undameshiWrapper">
         <Omikuji />
-
-        <p className="undameshiText">
-          ご一緒にお仕事をさせていただいた方々、支えてくれる家族友人、そしてこのサイトを見てくださった皆様に心よりの感謝と幸せをお祈りしております。
-        </p>
+        <p className="undameshiText">大吉が出るまで引き直そう</p>
       </div>
 
+      <p className="kanshaText">
+          このサイトを見てくれたあなたに<br />心よりの感謝と幸せを🙌
+        </p>
       <div className="footer">
         <a href="https://github.com/Kzi774">
           <button className="btn">
